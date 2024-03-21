@@ -34,3 +34,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+```
+npm install react@latest
+npm install react-dom@latest
+npm install next@latest
+npm install -g create-react-app
+npx create-next-app@latest
+
+add the following scripts
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  }
+}
+
+- dev: runs next dev to start Next.js in development mode.
+- build: runs next build to build the application for production usage.
+- start: runs next start to start a Next.js production server.
+- lint: runs next lint to set up Next.js' built-in ESLint configuration.
+```
